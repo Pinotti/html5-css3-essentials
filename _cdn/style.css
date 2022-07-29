@@ -260,6 +260,7 @@
 
 .main_course_rating_content {
 	max-width: calc(1300px - 80px);
+	padding: 0 20px;
 	margin: 0 auto;
 }
 
@@ -700,6 +701,10 @@
 	.main_blog article {
 		flex-basis: calc(33% - 10px);
 	}
+
+	.main_course_rating_content_title h2 {
+		font-size: 2em;
+	}
 }
 
 /* 640px */
@@ -720,6 +725,18 @@
 	.main_optin_content form button {
 		margin: 0 auto;
 		padding: 6px 12px;
+	}
+
+	.main_course_rating_content_title h2 {
+		font-size: 1.6em;
+	}
+
+	.main_course_rating_content_comment > header {
+		font-size: 1.2em;
+	}
+
+	.main_course_rating_content_comment > article {
+		flex-basis: 100%;
 	}
 }
 
