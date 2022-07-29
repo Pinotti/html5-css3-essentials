@@ -206,6 +206,7 @@
 
 .main_course .main_course_hearder {
 	max-width: 850px;
+	padding: 0 20px;
 	margin: 0 auto;
 	text-align: center;
 	color: #333;
@@ -696,7 +697,7 @@
 		font-size: 0.5em;
 	}
 
-	.main_blog_article {
+	.main_blog article {
 		flex-basis: calc(33% - 10px);
 	}
 }
@@ -738,6 +739,11 @@
 
 	.main_blog article {
 		flex-basis: 100%;
+	}
+
+	.main_course_content article {
+		flex-basis: calc(100% - 40px);
+		margin: 10px 0;
 	}
 }
 
