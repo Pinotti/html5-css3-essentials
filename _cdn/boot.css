@@ -4,5 +4,9 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	font-size: 1em;
-	font-family: 'Ubutu', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.ds_none {
+	display: none !important;
 }
